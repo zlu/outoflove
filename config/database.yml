@@ -13,8 +13,8 @@ development:
   encoding: unicode
   database: outoflove_development
   pool: 5
-  username: outoflove
-  password:
+  username: postgres
+  password: flute
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -39,13 +39,13 @@ test:
   encoding: unicode
   database: outoflove_test
   pool: 5
-  username: outoflove
-  password:
+  username: postgres
+  password: flute
 
 production:
   adapter: postgresql
   encoding: unicode
   database: outoflove_production
   pool: 5
-  username: outoflove
-  password:
+  username: postgres
+  password: flute
