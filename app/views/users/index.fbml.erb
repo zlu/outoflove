@@ -1,0 +1,9 @@
+There are <%= @all_user_fb_ids.size %> users in our record: <br />
+
+<% for id in @user_fb_ids %>
+    <%= fb_profile_pic id %>
+    <%= fb_name id %>
+    <%= (id) %><br />
+<% end %>
+
+<%= will_paginate @user_fb_ids, :params => {:fb_sig_friends => nil} %>

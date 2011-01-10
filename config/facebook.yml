@@ -1,0 +1,8 @@
+development:
+  api_id:     f17fe996672136c94fb0acc014848b35
+  secret_key: e9b0ec24a7f485bd3bd4fd5d0f4a4af8
+test:
+
+production:
+  api_id:     59c6a2bdb85f907e8914296d50b8d2e9
+  secret_key: d80753adc556b09573da7b125132456e
