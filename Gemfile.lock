@@ -98,7 +98,7 @@ PLATFORMS
 
 DEPENDENCIES
   heroku
-  koala
+  koala (= 0.10.0)
   pg (= 0.10.0)
   rails (= 3.0.3)
   rspec-rails (= 2.4.1)
